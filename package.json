@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx watch monaco.ts",
+  "build": "tsc",
+  "start": "node dist/monaco.js"
   },
   "keywords": [],
   "author": "",
@@ -20,9 +23,5 @@
     "dotenv": "^18.0.4",
     "express": "^5.2.1"
   },
-  "scripts": {
-  "dev": "tsx watch monaco.ts",
-  "build": "tsc",
-  "start": "node dist/server.js"
 }
-}
+
