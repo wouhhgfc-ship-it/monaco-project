@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "tsx watch monaco.ts",
   "build": "tsc",
-  "start": "node dist/monaco.js"
+  "start": "node monaco.js"
   },
   "keywords": [],
   "author": "",
