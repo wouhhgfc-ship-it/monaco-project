@@ -1,3 +1,5 @@
+
+
 {
   "name": "project-monaco",
   "version": "1.0.0",
@@ -6,8 +8,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "tsx watch monaco.ts",
-  "build": "tsc",
-  "start": "node monaco.ts"
+    "build": "tsc",
+    "start": "tsx monaco.ts"
   },
   "keywords": [],
   "author": "",
@@ -16,12 +18,11 @@
   "devDependencies": {
     "@types/express": "^5.0.6",
     "@types/node": "^26.6.3",
-    "tsx": "^4.23.15",
     "typescript": "^5.9.3"
   },
   "dependencies": {
     "dotenv": "^18.0.4",
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "tsx": "^4.23.15"
   }
 }
-
